@@ -1,0 +1,5 @@
+<h2>Add an Item Type</h2>
+<form name="thisForm" class="add-typeForm" action="POST" #jobForm=ngForm (ngSubmit)="submitForm(add-typeForm)">
+    <input type="text" id="name" name="name" placeholder="Item Type"/>
+    <input type="submit" value="Save this Type"/>
+</form>
